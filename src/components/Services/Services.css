@@ -21,13 +21,11 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(2) {
-  color: var(--orange);
+.awesome >:nth-child(2) {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(3) {
-  color: var(--gray);
+.awesome >:nth-child(3) {
   font-size: 14px;
   margin-top: 1rem;
 }

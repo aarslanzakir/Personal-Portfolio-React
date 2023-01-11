@@ -17,7 +17,7 @@
     font-weight: bold;
 }
 .t-heading span:nth-of-type(2){
-    color: var(--orange);
+    color: var(--pomgrante);
 }
 
 .t-blur1{
@@ -37,9 +37,7 @@
     width: 30rem;
     height: 12rem;
     /* styles same as work.css */
-    background: rgba(255, 255, 255, 0.26);
-    border: 7px solid var(--blueCard);
-    box-shadow: var(--boxShadow);
+    background: var(--pomgrante);
     border-radius: 20px;
 }
 .testimonial>img{
@@ -48,7 +46,7 @@
     border-radius: 100%;
 }
 .testimonial>span{
-    color: var(--gray);
+    color: #fff;
 }
 
 

@@ -1,6 +1,6 @@
 .floatingDiv {
   justify-content: space-around;
-  background: white;
+  background: #f34c19;
   box-shadow: var(--boxShadow);
   border-radius: 17px;
   display: flex;
@@ -15,6 +15,6 @@
   font-family: sans-serif;
   font-size: 16px;
   /* yahan ye color add kia hy bad mein dark mode k waqt */
-  color: black;
+  color: #030e12;
 }
 

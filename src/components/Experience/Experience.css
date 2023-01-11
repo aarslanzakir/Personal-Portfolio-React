@@ -3,9 +3,8 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  height: 30vh;
-  margin-bottom: 8rem;
-  /* darkmode */
+  height: 20vh;
+  margin-bottom: 3rem;
   color: var(--black);
 }
 .achievement{
@@ -16,7 +15,7 @@
 .circle {
     width: 4rem;
     height: 4rem;
-    background: white;
+    background: var(--pomgrante);
     border-radius: 100%;
     position: relative;
     display: flex;
@@ -29,7 +28,6 @@
 .circle::before {
     border-radius: 100%;
     content: '';
-    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
     top: -8px;
     left: -8px;
     bottom: -8px;
@@ -47,5 +45,15 @@
 @media screen and (max-width: 480px) {
     .experience{
         transform: scale(0.7);
+
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .experience{
+        transform: scale(0.7);
+        margin-top:-7rem;
+
     }
 }

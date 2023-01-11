@@ -26,6 +26,7 @@
 }
 
 .n-list {
+
   flex: 10;
 }
 .n-list > ul {
@@ -35,7 +36,7 @@
 }
 
 .n-list > ul :hover {
-  color: var(--orange);
+  color: #f34c19;
   cursor: pointer;
 }
 
